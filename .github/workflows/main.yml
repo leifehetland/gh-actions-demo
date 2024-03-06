@@ -17,10 +17,10 @@
              - name: Checkout code
                uses: actions/checkout@v1
              # Install NodeJS
-             - name: Use Node.js 12.x
+             - name: Use Node.js 18.x
                uses: actions/setup-node@v1
                with:
-                 node-version: 12.x
+                 node-version: 18.x
              # Build the app
              - name: 🧰 install deps
                run: npm install
